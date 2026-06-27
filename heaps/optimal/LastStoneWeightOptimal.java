@@ -25,6 +25,7 @@ class LastStoneWeightOptimal {
         // Insert all stones
         for (int stone : stones) {
             maxHeap.offer(stone);
+
         }
         while (maxHeap.size() > 1) {
             int first = maxHeap.poll();      // Largest
