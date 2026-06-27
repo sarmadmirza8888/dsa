@@ -21,17 +21,14 @@
 import java.util.HashMap;
 
 class ValidAnagramOptimal {
-
     /**
      * Returns true if the two strings are anagrams.
      */
     public boolean isAnagram(String s, String t) {
-
         // Different lengths cannot be anagrams
         if (s.length() != t.length()) {
             return false;
         }
-
         // Create a HashMap to store character frequencies
         HashMap<Character, Integer> frequency = new HashMap<>();
         // Traverse both strings together
