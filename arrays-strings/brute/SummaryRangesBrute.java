@@ -19,7 +19,7 @@ import java.util.List;
  * ------------------------------------------------------------
  */
 
-class SummaryRanges{
+class SummaryRangesBrute{
     public List<String> summaryRanges(int[] nums) {
         List<String> result = new ArrayList<>();
         int i = 0;
@@ -61,7 +61,7 @@ class SummaryRanges{
 
     public static void main(String[] args) {
 
-        SummaryRanges solution = new SummaryRanges();
+        SummaryRangesBrute solution = new SummaryRangesBrute();
 
         int nums[] = {0,1,2,4,5,7};
 
